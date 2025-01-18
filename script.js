@@ -1,11 +1,11 @@
-document.querySelectorAll('.circular-progress').forEach((progress) => {
-    const observer = new IntersectionObserver(
-        (entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    const percentage = parseInt(progress.getAttribute('data-percentage'));
-                    let startValue = 0;
-                    const speed = 30;
+    document.querySelectorAll('.circular-progress').forEach((progress) => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        const percentage = parseInt(progress.getAttribute('data-percentage'));
+                        let startValue = 0;
+                        const speed = 30;
 
                     
                     progress.querySelector('.progress-value').textContent = '0%';
@@ -26,6 +26,8 @@ document.querySelectorAll('.circular-progress').forEach((progress) => {
 
     observer.observe(progress);
 });
+
+
 
   
 
