@@ -1,0 +1,154 @@
+ 
+ .skill {
+    background-color: rgb(255, 252, 242);
+}
+
+.progress-card {
+    padding: 12% 10% 10% 15%;
+    background-color: #f1e0c6;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.progress-card:hover {
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.6s;
+}
+.skill-detail {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-detail .heading h3 {
+    font-size: 1.8rem;
+    color: #6f34fe;
+}
+
+.skill-detail .heading p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+
+.circular-progress {
+    position: relative;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background: conic-gradient(#4CAF50 3.6deg, #ededed 0deg); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular-progress::before {
+    content: "";
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.progress-value {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.html-progress {
+    color: #fca61f; 
+}
+
+.javascript-progress {
+    color: #6f34fe; 
+}
+
+.text {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.heading p {
+    font-size: 1.3rem;
+}
+
+.home img {
+    animation: floatimg 4s ease-in-out infinite;
+}
+
+@keyframes floatimg {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-24px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.heading small {
+    color: #ff9900;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.heading h3 {
+    color: #282222;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.heading h3::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 50%;
+    height: 3px;
+    background-color: #ff8c00;
+}
+/*Expertise Section Styles ==== */
+.heading small{
+    color: #6f34fe;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.heading h3{
+    margin-top: 0.5rem;
+    color: #3f396d;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.expertise h4{
+    color: #3f396d;
+    font-weight: 700;
+}
+.expertise a{
+    text-decoration: none;
+    color: #fca61f;
+}
+.expertise a:hover{
+    color: #6f34fe;
+}
+.expertise .service-card{
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 0.7rem;
+}
+
+.expertise {
+    background-color: #f8f8e3; 
+}
+  
+
+
+
